@@ -1,0 +1,31 @@
+**Hello World in Python**
+```python
+# Hello World in Python
+
+def main():
+    print("Hello, World!")
+
+if __name__ == "__main__":
+    main()
+```
+
+**Hello World in Java**
+```java
+// Hello World in Java
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+**Explanation:**
+
+* The Python code defines a `main` function that prints "Hello, World!" to the console. The `if __name__ == "__main__":` block ensures that the `main` function is called when the script is run directly.
+* The Java code defines a `HelloWorld` class with a `main` method that prints "Hello, World!" to the console. The `public static void main` method is the entry point for the Java program.
+
+**Running the Code:**
+
+* To run the Python code, save it to a file named `hello.py` and run it using the command `python hello.py`.
+* To run the Java code, save it to a file named `HelloWorld.java`, compile it using the command `javac HelloWorld.java`, and then run it using the command `java HelloWorld`.
